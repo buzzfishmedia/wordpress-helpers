@@ -1,7 +1,7 @@
 {
 	"name": "buzzfishmedia/wordpress-helpers",
 	"version": "0.1.0",
-	"type": "wordpress-plugin",
+	"type": "wordpress-muplugin",
 	"autoload": {
 		"psr-0": {
 			"WordPress": "src/"
