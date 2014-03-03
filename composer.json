@@ -1,7 +1,27 @@
 {
 	"name": "buzzfishmedia/wordpress-helpers",
+	"description": "Collection of classes to ease development with WordPress",
 	"version": "0.1.0",
 	"type": "wordpress-muplugin",
+	"homepage": "https://github.com/buzzfishmedia/wordpress-helpers",
+	"license": "GPL-2.0",
+	"authors": [
+			{
+				"name": "Frank McCoy",
+				"email": "frank@buzzfishmedia.com",
+				"homepage": "https://github.com/fmccoy",
+				"role": "Developer"
+			}
+	],
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://packagist.org"
+		}
+	],
+	"require-dev": {
+		"phpdocumentor/phpdocumentor": "v2.3.1"
+	},
 	"autoload": {
 		"psr-0": {
 			"WordPress": "src/"
